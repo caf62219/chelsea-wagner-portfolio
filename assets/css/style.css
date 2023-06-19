@@ -1,0 +1,129 @@
+:root {
+    --black: #000000 ;
+    --border-width: 4px;
+
+}
+body {
+    background-color: #fffadc;
+    line-height: 1.3;
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color:#94dcee;
+    color: #fff;
+    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+}
+header h1 {
+    font-size: 60px;
+    display: inline;
+}
+
+header nav {
+    padding: 20px;
+}
+header nav a {
+    padding: 10px;
+    border: 2px solid rgb(53, 27, 202);
+    border-radius: 20px;
+    box-shadow: 2px 2px gray;
+    font-size: 12px;
+   /*why does this not work to align right?*/
+  } 
+section h2 {
+    font-size: 50px;
+    font-weight: bold;
+    
+   
+}
+a:hover {
+    border-color: coral;
+}
+a:active {
+    border-color: var(--black);
+    border-shadow: 0 0 10px gray;
+    color: var(--black);
+}
+a:focus {
+    border-color:white;
+    
+}
+form {
+    justify-content: center;
+    padding: 20px;
+    border: var(--border-width) solid var(--black);
+    text-align: center;
+}
+form p {
+    line-height: 3;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    display: inline;
+}
+footer h3{
+    justify-content: flex-start;
+    padding: 20px;
+    border: var(--border-width) solid blue;
+}
+footer ul{
+    display: none;
+    padding: 0 2%;
+  }
+  
+footer:hover ul {
+    display: inline;
+    justify-content: flex-end;
+    justify-content: space-between;
+
+  }
+
+ footer ul li {
+    display: inline;
+    justify-content: space-between;
+    padding: 0 20px;
+    list-style-type: square;
+}
+
+.other {
+    display: inline;
+
+}
+.other img {
+    flex: 1 1 450px;
+    width: 30%;
+    height: auto;
+    border: var(--border-width) solid var(--black);
+    padding: 2%;
+}
+
+#horiseon {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+}
+#horiseon img {
+    flex: 2 1 900px;
+    width: 75%;
+    height: auto;
+    border: var(--border-width) solid var(--black);
+    padding: 2%;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    header {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px)
+
+
