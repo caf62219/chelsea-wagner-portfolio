@@ -1,6 +1,9 @@
 :root {
     --black: #000000 ;
+    --white: #ffffff;
+    --blue: #0026ff; 
     --border-width: 4px;
+
 
 }
 body {
@@ -11,33 +14,57 @@ body {
 }
 header {
     background-color:#94dcee;
-    color: #fff;
+    color: var(--white);
     display: inline;
     display: flex;
     flex-wrap: wrap;
 }
 header h1 {
     font-size: 60px;
-    display: inline;
+    display: inline-block;
 }
 
 header nav {
     padding: 20px;
+    float: right;
 }
 header nav a {
     padding: 10px;
-    border: 2px solid rgb(53, 27, 202);
+    border: 2px solid var(--blue);
     border-radius: 20px;
     box-shadow: 2px 2px gray;
-    font-size: 12px;
-   /*why does this not work to align right?*/
+    font-size: 15px;
+   /*why wont it align to the right?*/
   } 
+
+section {
+    display: inline-block;
+  }
+
 section h2 {
     font-size: 50px;
     font-weight: bold;
-    
-   
+    float: left;
+  }
+
+section p {
+    float: right;
 }
+
+/* why does this not work.  I want the text to be on top of the image in the bottom left corner, with borders around it*/
+article {
+    position: relative;
+}
+article img {
+    z-index: 0;
+}
+article h4, article p {
+    z-index: 1;
+    background-color: #94dcee;
+    color: var(--white);
+    border-radius: 10px;
+}
+
 a:hover {
     border-color: coral;
 }
@@ -46,16 +73,20 @@ a:active {
     border-shadow: 0 0 10px gray;
     color: var(--black);
 }
+
 a:focus {
-    border-color:white;
-    
+    border-color:var(--white);
 }
+
 form {
     justify-content: center;
     padding: 20px;
     border: var(--border-width) solid var(--black);
     text-align: center;
+    width: 20%;
+    /*how do I make this centered on the page?*/
 }
+
 form p {
     line-height: 3;
 }
@@ -65,11 +96,13 @@ footer {
     flex-wrap: wrap;
     display: inline;
 }
+
 footer h3{
     justify-content: flex-start;
     padding: 20px;
-    border: var(--border-width) solid blue;
+    border: var(--border-width) solid var(--blue);
 }
+
 footer ul{
     display: none;
     padding: 0 2%;
@@ -79,7 +112,6 @@ footer:hover ul {
     display: inline;
     justify-content: flex-end;
     justify-content: space-between;
-
   }
 
  footer ul li {
@@ -93,6 +125,7 @@ footer:hover ul {
     display: inline;
 
 }
+
 .other img {
     flex: 1 1 450px;
     width: 30%;
@@ -106,6 +139,7 @@ footer:hover ul {
     flex-wrap: wrap;
     text-align: right;
 }
+
 #horiseon img {
     flex: 2 1 900px;
     width: 75%;
