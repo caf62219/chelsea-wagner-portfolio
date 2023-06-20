@@ -5,6 +5,7 @@
         <title>Chelsea Wagner's Portfolio</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--links to the reset and normal css-->
         <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
@@ -24,33 +25,36 @@
 
         <main>
             <section id="about-me">
-                <h2>About Me </h2>
-    <!-- Image of Me-->           
-                <img src="./assets/images/chelsea_photo.jpg" alt="Chelsea Wagner photo" width="200px" height="300px"/>
-                <p>Hi. I am Chelsea, a web developer and dog lover.  My original background is in healthcare as a Physical Therapist. 
+                <h2 class=title>About Me</h2>            
+                <article>
+                    <!-- Image of Me--> 
+                    <img src="./assets/images/chelsea_photo.jpg" alt="Chelsea Wagner photo" width="200px" height="300px"/>
+                    <!--info about me-->
+                    <p id="self">Hi. I am Chelsea, a web developer and dog lover.  My original background is in healthcare as a Physical Therapist. 
                     I have a passion for helping people and am a problem solver.   
                     I have a proven history of leadership in my work life. 
                     I want to help create amazing web designs with optimized structure, flow, buttons and forms.
-                </p>
+                    </p>
+                </article>
             </section>
 
             <section id="work">
-                <h2 id="work1">Work</h2>
-                    <article id="horiseon">
-                        <a href="https://caf62219.github.io/hw-challenge-1/"><img src="./assets/images/Screenshot 2023-06-09 233831.png" alt="Horiseon Website Screenshot" width="900px" height="600px">  </a>    
-                        <h4>Horiseon</h4>
-                        <p>HTML/CSS</p>
-                    </article>
-                    <article class="other">
-                        <a href="https://caf62219.github.io/Prework-study-guide/"><img src="./assets/images/Screenshot 2023-06-16 201928.png" alt=" Prework Study Guide Website screenshot" width="450 px" height="300px"></a> 
-                        <h4>Prework Study Guide</h4>
-                        <p>HTML/CSS/Javascript</p>
-                    </article>
-                    <article class="other">
-                        <a href="https://caf62219.github.io/html-css-mini-project/"><img src="./assets/images/Screenshot Mini Project.png" alt=" HTML and CSS Mini Project screenshot" width="450 px" height="300px"></a> 
-                        <h4>HTML CSS Mini Project</h4>
-                        <p>HTML/CSS/Javascript</p>
-                    </article>
+                <h2 class=title id="work1">Work</h2>
+                <!--Top priority page-->
+                <article id="horiseon">
+                    <a href="https://caf62219.github.io/hw-challenge-1/"><img src="./assets/images/Screenshot 2023-06-09 233831.png" alt="Horiseon Website Screenshot" width="900px" height="600px">  </a>    
+                    <p>Horiseon: HTML/CSS</p>
+                </article>
+                <!--Sub priority pages-->
+                <article class="other">
+                    <a href="https://caf62219.github.io/Prework-study-guide/"><img src="./assets/images/Screenshot 2023-06-16 201928.png" alt=" Prework Study Guide Website screenshot" width="450px" height="300px"></a> 
+                    <p>Prework: HTML/CSS/Javascript</p>
+                </article>
+                <!--Sub priority pages-->
+                <article class="other">
+                    <a href="https://caf62219.github.io/html-css-mini-project/"><img src="./assets/images/Screenshot Mini Project.png" alt=" HTML and CSS Mini Project screenshot" width="450px" height="300px"></a> 
+                    <p>Mini Project: HTML/CSS</p>
+                </article>
             </section>
             <form id="how-to-help">
                 <!-- Reaching out for help-->
@@ -82,6 +86,7 @@
             <h3>Show Contact Information </h3>
             <ul>
                 <li>858-414-2669</li>
+                <!--All the below link to the webpage or to email-->
                 <li><a href="mailto:1chelsea.fischer1@gmail.com">1chelsea.fischer1@gmail.com</a></li>
                 <li><a href="https://github.com/caf62219">Github</a></li>
                 <li><a href="https://www.instagram.com/caf62219/">Instagram</a></li>
