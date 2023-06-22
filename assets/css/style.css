@@ -179,11 +179,12 @@ footer:hover ul {
 }
 
 .tertiary img {
-    flex: 1 1 100%;
+    flex: 1 1 50%;
     height: auto;
     border: var(--border-width) solid var(--black);
     padding: 2%;
-    width: 250;
+    width: 100%;
+   
 }
 
 /*positions the title and info about the project around the picture of the project*/
