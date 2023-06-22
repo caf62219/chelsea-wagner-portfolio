@@ -7,7 +7,7 @@
     
 # Installation
 
-    Follow the following URL to the website: 
+    Follow the following URL to the website: https://caf62219.github.io/chelsea-wagner-portfolio/
 
 # Usage
 <img src="./assets/images/screen_shot.PNG" alt="screenshot of webpage" width="600px" />
