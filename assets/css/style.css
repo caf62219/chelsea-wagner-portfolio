@@ -207,7 +207,7 @@ footer:hover ul {
 }
 
 /*id with the primary website picture*/
-#horiseon {
+#main {
     display: flex;
     flex-wrap: wrap;
     text-align: right;
@@ -215,7 +215,7 @@ footer:hover ul {
 }
 
 /*positions the title and infor about the project relative to the project*/
-#horiseon p{
+#main p{
     position: absolute;
     right: 2%;
     bottom: 2%;
@@ -224,7 +224,7 @@ footer:hover ul {
     border: var(--border-width) solid var(--black);
 }
 
-#horiseon img {
+#main img {
     flex: 2 1 100%;
     width: 100%;
     height: auto;
