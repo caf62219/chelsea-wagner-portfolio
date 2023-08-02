@@ -10,7 +10,7 @@
     Follow the following URL to the website: https://caf62219.github.io/chelsea-wagner-portfolio/
 
 # Usage
-<img src="./assets/images/screen_shot.PNG" alt="screenshot of webpage" width="600px" />
+<img src="./assets/images/webpagescreenshot2.png" alt="screenshot of webpage" width="600px" />
    
 - You can click on the links at the top to navigate the webpage.
 - If you hover over the Show Contact Information the contact information appears
